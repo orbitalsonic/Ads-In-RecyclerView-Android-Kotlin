@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
         for (index in countryName.indices){
             mCountryList.add(CountryItem( countryName[index],1))
 
-            if (index % 5 == 0) {
+            if (index % 3 == 0) {
                 mCountryList.add(CountryItem( "Ads",2))
             }
         }
